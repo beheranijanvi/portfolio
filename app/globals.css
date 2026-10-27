@@ -1,0 +1,1270 @@
+
+/* ==============================
+   GLOBAL
+============================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #222222;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* ==============================
+   HOMEPAGE LAYOUT
+============================== */
+
+.portfolio {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ==============================
+   LEFT SIDEBAR
+============================== */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  padding: 27px 20px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar > div {
+  width: 90%;
+}
+
+.sidebar-content {
+  max-width: 400px;
+}
+
+.name {
+  margin: 0 0 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.intro {
+  max-width: 470px;
+  color: #9b9b9b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  line-height: 1.32;
+}
+
+.intro p {
+  margin: 0 0 20px;
+}
+
+.links {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.work {
+  margin-top: 38px;
+  color: #9b9b9b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.work > p {
+  margin: 0 0 2px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.work ol {
+  margin: 0;
+  padding-left: 29px;
+}
+
+.work li {
+  padding-left: 1px;
+  line-height: 1.35;
+}
+
+.copyright {
+  margin: 0;
+  color: #aaaaaa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1;
+}
+
+/* ==============================
+   RIGHT PROJECTS SECTION
+============================== */
+
+.projects {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.topbar {
+  height: 38px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.topbar p,
+.topbar span {
+  margin: 0;
+}
+
+.topbar span:last-child {
+  position: absolute;
+  right: 20px;
+  color: #999999;
+  font-weight: 400;
+}
+
+.project-list {
+  padding: 4px 40px 120px;
+}
+
+.project {
+  max-width: 1000px;
+  margin-bottom: 120px;
+}
+
+.project-number {
+  margin: 0 0 8px;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/* ==============================
+   PROJECT THUMBNAILS
+============================== */
+
+.project-image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 10px 12px 18px rgba(0, 0, 0, 0.60);
+  object-fit: contain;
+}
+
+.project-01-image { width: 52%; }
+.project-02-image { width: 65%; }
+.project-03-image { width: 70%; }
+.project-04-image { width: 85%; }
+.project-05-image { width: 55%; }
+.project-06-image { width: 70%; }
+
+/* ==============================
+   PROJECT INFORMATION
+============================== */
+
+.project-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  margin-top: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.project-info h1 {
+  margin: 0 0 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project-info p {
+  margin: 0;
+}
+
+.project-description p {
+  margin-bottom: 13px;
+  color: #999999;
+}
+
+.view-project {
+  grid-column: 2;
+  margin-top: 8px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* ==============================
+   CASE STUDY BASE
+============================== */
+
+.case-study {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #222222;
+}
+
+.case-study-content {
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 0 120px;
+}
+
+/* ==============================
+   CASE STUDY HEADER
+============================== */
+
+.case-study-header {
+  margin-bottom: 90px;
+}
+
+.case-study-label {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.case-study-header h1 {
+  max-width: 760px;
+  margin: 0 0 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.case-study-meta {
+  margin: 0;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ==============================
+   CASE STUDY TEXT SECTIONS
+============================== */
+
+.case-study-section {
+  max-width: 720px;
+  margin: 0 auto 90px;
+}
+
+.case-study-section h2 {
+  margin: 0 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.case-study-section p {
+  margin: 0 0 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.case-study-section p:last-child {
+  margin-bottom: 0;
+}
+
+.case-study-section.opening {
+  max-width: 720px;
+}
+
+/* ==============================
+   YOUTUBE VIDEO
+============================== */
+
+.case-study-video {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  margin: 60px auto 90px;
+}
+
+.case-study-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ==============================
+   GHAR PHOTO SLIDESHOW
+============================== */
+
+.ghar-slideshow {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 10px auto 90px;
+}
+
+/* Fixed frame prevents the content below from moving */
+
+.slideshow-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* Full image stays visible */
+
+.slideshow-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Horizontal slide, with no fade */
+
+.slideshow-image.slide-right {
+  animation: slide-from-right 0.45s ease-out;
+}
+
+.slideshow-image.slide-left {
+  animation: slide-from-left 0.45s ease-out;
+}
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-from-left {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* ==============================
+   SLIDESHOW COUNTER AND ARROWS
+============================== */
+
+.ghar-slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.ghar-slideshow-counter {
+  margin: 0;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.ghar-slideshow-arrows {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ghar-slideshow-arrows button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ghar-slideshow-arrows button:hover {
+  color: #999999;
+}
+
+.ghar-slideshow-arrows button:focus-visible {
+  outline: 1px solid #222222;
+  outline-offset: 3px;
+}
+
+/* ==============================
+   CASE STUDY QUOTE
+============================== */
+
+.case-study-quote {
+  margin: 45px 0;
+  padding-left: 22px;
+  border-left: 1px solid #222222;
+}
+
+.case-study-quote p:first-child {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.case-study-quote p:last-child {
+  color: #999999;
+}
+
+/* ==============================
+   CASE STUDY FOOTER
+============================== */
+
+.case-study-footer {
+  max-width: 720px;
+  margin: 130px auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.case-study-footer a {
+  color: #222222;
+  text-decoration: none;
+}
+
+/* ==============================
+   HOMEPAGE MOBILE
+============================== */
+
+@media (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .portfolio {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects {
+    position: relative;
+    order: 1;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .topbar {
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .topbar span:last-child {
+    right: 20px;
+  }
+
+  .project-list {
+    padding: 4px 20px 80px;
+  }
+
+  .project {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 90px;
+  }
+
+  .project-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-01-image { width: 90%; }
+  .project-02-image { width: 75%; }
+  .project-03-image { width: 90%; }
+  .project-04-image { width: 95%; }
+  .project-05-image { width: 80%; }
+  .project-06-image { width: 90%; }
+
+  .project-info {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 22px;
+    margin-top: 22px;
+  }
+
+  .project-description {
+    grid-column: 1;
+  }
+
+  .view-project {
+    grid-column: 1;
+    margin-top: 0;
+  }
+
+  .sidebar {
+    position: relative;
+    order: 2;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 30px;
+    display: block;
+  }
+
+  .sidebar > div {
+    width: 100%;
+  }
+
+  .sidebar-content {
+    max-width: none;
+  }
+
+  .name {
+    margin-bottom: 32px;
+  }
+
+  .intro {
+    max-width: 520px;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .intro p {
+    margin-bottom: 18px;
+  }
+
+  .links {
+    margin-top: 24px;
+  }
+
+  .work {
+    margin-top: 34px;
+  }
+
+  .copyright {
+    margin-top: 45px;
+  }
+}
+
+/* ==============================
+   CASE STUDY MOBILE
+============================== */
+
+@media (max-width: 768px) {
+  .case-study-content {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 45px 20px 80px;
+  }
+
+  .case-study-header {
+    margin-bottom: 70px;
+  }
+
+  .case-study-label {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+
+  .case-study-header h1 {
+    font-size: 15px;
+  }
+
+  .case-study-section {
+    max-width: none;
+    margin-bottom: 70px;
+  }
+
+  .case-study-section h2 {
+    font-size: 15px;
+  }
+
+  .case-study-section p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .case-study-video {
+    width: 100%;
+    margin: 45px auto 70px;
+  }
+
+  .ghar-slideshow {
+    width: 100%;
+    margin: 10px auto 70px;
+  }
+
+  .slideshow-image-wrapper {
+    aspect-ratio: 16 / 9;
+  }
+
+  .ghar-slideshow-controls {
+    gap: 14px;
+  }
+
+  .ghar-slideshow-arrows {
+    gap: 8px;
+  }
+
+  .case-study-footer {
+    max-width: none;
+    margin-top: 90px;
+  }
+}
+
+.ghar-process-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 150%;
+  max-width: 1100px;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px 0 90px;
+  padding: 0;
+  gap: 0;
+  column-gap: 0;
+  overflow: hidden;
+}
+
+.ghar-process-photo,
+.ghar-process-gif {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.ghar-process-photo img,
+.ghar-process-gif img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ghar-process-photo img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.ghar-process-gif img {
+  object-fit: fill;
+  object-position: center;
+}
+
+
+/* INSTALLATION TIMELAPSE GIF */
+.case-study-video-local {
+  width: 100%;
+  max-width: 1100px;
+  margin: 10px auto 90px;
+}
+
+.case-study-video-local img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .case-study-video-local {
+    margin-bottom: 60px;
+  }
+}
+
+/* ==============================
+   AUCTION OF TONGUES — RESTORED LAYOUT
+============================== */
+
+.auction-page {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #f8f7f3;
+  color: #222222;
+  padding: 90px 0 120px;
+}
+
+/* Central text column */
+.auction-content {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title */
+.auction-header {
+  margin: 0 0 105px;
+}
+
+.auction-title {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.auction-header h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Body text */
+.auction-text {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.auction-text p {
+  margin: 0 0 40px;
+}
+
+.auction-text strong {
+  font-weight: 700;
+}
+
+.auction-text em {
+  font-style: italic;
+}
+
+/* Decorative tongues */
+.auction-tongues {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.auction-tongue {
+  position: absolute;
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
+/* All nine individual positions */
+.auction-tongue.at-01 {
+  width: 13%;
+  left: -2%;
+  top: 7%;
+}
+
+.auction-tongue.at-02 {
+  width: 19%;
+  right: -3%;
+  top: 9%;
+}
+
+.auction-tongue.at-03 {
+  width: 12%;
+  left: 9%;
+  top: 35%;
+}
+
+.auction-tongue.at-04 {
+  width: 14%;
+  right: 7%;
+  top: 39%;
+}
+
+.auction-tongue.at-05 {
+  width: 11%;
+  left: -3%;
+  top: 61%;
+}
+
+.auction-tongue.at-06 {
+  width: 13%;
+  right: -2%;
+  top: 65%;
+}
+
+.auction-tongue.at-07 {
+  width: 15%;
+  left: 8%;
+  top: 83%;
+}
+
+.auction-tongue.at-08 {
+  width: 12%;
+  right: 17%;
+  top: 88%;
+}
+
+.auction-tongue.at-09 {
+  width: 14%;
+  left: 43%;
+  top: 96%;
+}
+
+/* Footer */
+.auction-footer {
+  position: relative;
+  z-index: 2;
+  margin-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.auction-footer a {
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .auction-page {
+    padding: 45px 20px 80px;
+  }
+
+  .auction-content {
+    width: 100%;
+    max-width: none;
+  }
+
+  .auction-header {
+    margin-bottom: 65px;
+  }
+
+  .auction-title {
+    font-size: 20px;
+  }
+
+  .auction-header h1 {
+    font-size: 16px;
+  }
+
+  .auction-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .auction-text p {
+    margin-bottom: 28px;
+  }
+
+  .auction-tongue.at-01 { width: 24%; left: -10%; top: 5%; }
+  .auction-tongue.at-02 { width: 29%; right: -13%; top: 12%; }
+  .auction-tongue.at-03 { width: 21%; left: -10%; top: 32%; }
+  .auction-tongue.at-04 { width: 24%; right: -12%; top: 39%; }
+  .auction-tongue.at-05 { width: 22%; left: -12%; top: 55%; }
+  .auction-tongue.at-06 { width: 24%; right: -13%; top: 64%; }
+  .auction-tongue.at-07 { width: 25%; left: -10%; top: 78%; }
+  .auction-tongue.at-08 { width: 21%; right: -8%; top: 87%; }
+  .auction-tongue.at-09 { width: 23%; left: 40%; top: 96%; }
+}
+
+
+
+/* Replace only the existing Zupto receipt interaction rules with these.
+   Keep the rest of globals.css unchanged. */
+
+.zupto-tax-experience {
+  --receipt-progress: 0;
+  --receipt-pile-progress: 0;
+  position: relative;
+  height: 190vh;
+  margin: 10px 0 90px;
+}
+
+.zupto-tax-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.zupto-printer-scene {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.zupto-printer {
+  position: relative;
+  z-index: 5;
+  width: 82%;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 12px 12px 5px 5px;
+  background: #292a2b;
+  color: #fff;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.12);
+}
+
+.zupto-printer-heading {
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.zupto-printer-controls {
+  position: relative;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 9px;
+  border-radius: 5px;
+  background: #202122;
+}
+
+.zupto-printer-slot {
+  display: block;
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: #080909;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.zupto-printer-light {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #83b77b;
+}
+
+.zupto-printer-button {
+  width: 17px;
+  height: 17px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.zupto-paper-window {
+  position: absolute;
+  z-index: 3;
+  top: 174px;
+  left: 50%;
+  width: 68%;
+  height: calc(100vh - 205px);
+  max-height: 680px;
+  overflow: hidden;
+  transform: translateX(-50%);
+  background: transparent;
+  /* Keep the top of the paper anchored at the printer slot. */
+  -webkit-mask-image: linear-gradient(#000 0%, #000 98%, transparent 100%);
+  mask-image: linear-gradient(#000 0%, #000 98%, transparent 100%);
+}
+
+.zupto-paper {
+  position: relative;
+  width: 100%;
+  padding: 22px 13px 20px;
+  background: #ffebeb;
+  color: #292222;
+  font-family: "Courier New", monospace;
+  font-size: 9px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.09);
+  transform: translateY(var(--receipt-paper-shift, 0px));
+  will-change: transform;
+}
+
+.zupto-paper-brand {
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.zupto-paper-subtitle {
+  margin: 2px 0 20px;
+  text-align: center;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+
+.zupto-paper-order {
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #927e7e;
+}
+
+.zupto-paper-order > div,
+.zupto-paper-total,
+.zupto-paper-tax,
+.zupto-paper-factor {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.zupto-paper-total {
+  padding: 12px 0;
+  border-bottom: 1px dashed #927e7e;
+  font-weight: 700;
+}
+
+.zupto-paper-tax {
+  margin-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #927e7e;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.zupto-paper-caption {
+  margin: 14px 0 10px;
+  font-size: 8px;
+  letter-spacing: 0.3px;
+}
+
+.zupto-paper-factors {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.zupto-paper-factor {
+  font-size: 8px;
+  line-height: 1.35;
+}
+
+.zupto-paper-factor span:first-child {
+  min-width: 0;
+  padding-right: 3px;
+}
+
+.zupto-paper-factor span:last-child {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.zupto-paper-closing {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed #927e7e;
+  text-align: center;
+  font-size: 8px;
+}
+
+.zupto-paper-closing p {
+  margin: 0 0 4px;
+}
+
+.zupto-paper-closing .zupto-paper-thanks {
+  margin-top: 18px;
+}
+
+/* The loose end curls and stacks beneath the printer. */
+.zupto-paper-pile {
+  position: absolute;
+  z-index: 2;
+  top: 260px;
+  left: 50%;
+  width: 67%;
+  height: 150px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.zupto-paper-pile .paper-fold {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  height: 36px;
+  background: #ffebeb;
+  border: 1px solid rgba(146, 126, 126, 0.55);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11);
+  opacity: calc(var(--receipt-pile-progress) * 0.98);
+  transform-origin: center center;
+  clip-path: polygon(0 15%, 12% 4%, 24% 12%, 35% 0, 49% 10%, 62% 2%, 76% 12%, 88% 3%, 100% 17%, 96% 90%, 82% 100%, 65% 90%, 49% 100%, 32% 89%, 16% 100%, 0 84%);
+}
+
+.zupto-paper-pile .paper-fold-1 {
+  top: 0;
+  transform: translateX(-50%) rotate(-8deg) scaleX(calc(0.25 + var(--receipt-pile-progress) * 0.75));
+}
+
+.zupto-paper-pile .paper-fold-2 {
+  top: 13px;
+  transform: translateX(-50%) rotate(7deg) scaleX(calc(0.2 + var(--receipt-pile-progress) * 0.8));
+}
+
+.zupto-paper-pile .paper-fold-3 {
+  top: 26px;
+  transform: translateX(-50%) rotate(-5deg) scaleX(calc(0.15 + var(--receipt-pile-progress) * 0.85));
+}
+
+.zupto-paper-pile .paper-fold-4 {
+  top: 39px;
+  transform: translateX(-50%) rotate(9deg) scaleX(calc(0.12 + var(--receipt-pile-progress) * 0.88));
+}
+
+.zupto-paper-pile .paper-fold-5 {
+  top: 52px;
+  transform: translateX(-50%) rotate(-11deg) scaleX(calc(0.1 + var(--receipt-pile-progress) * 0.9));
+}
+
+.zupto-paper-pile .paper-fold-6 {
+  top: 65px;
+  transform: translateX(-50%) rotate(4deg) scaleX(calc(0.08 + var(--receipt-pile-progress) * 0.92));
+}
+
+@media (max-width: 768px) {
+  .zupto-tax-experience {
+    margin: 10px 0 70px;
+  }
+
+  .zupto-tax-sticky {
+    height: 100svh;
+  }
+
+  .zupto-printer-scene {
+    max-width: 290px;
+    padding-top: 55px;
+  }
+
+  .zupto-printer {
+    height: 104px;
+  }
+
+  .zupto-printer-heading {
+    height: 70px;
+  }
+
+  .zupto-printer-controls {
+    height: 34px;
+  }
+
+  .zupto-paper-window {
+    top: 154px;
+    width: 72%;
+    height: calc(100svh - 185px);
+  }
+
+  .zupto-paper {
+    padding: 18px 10px;
+    font-size: 8px;
+  }
+
+  .zupto-paper-factor {
+    font-size: 7px;
+  }
+
+  .zupto-paper-pile {
+    top: 235px;
+    width: 70%;
+  }
+}
+
+.zupto-figma-prototype {
+  width: 100%;
+  max-width: 360px;
+  margin: 36px auto 0;
+  aspect-ratio: 402 / 799;
+}
+
+.zupto-figma-prototype iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.zupto-mobile-screens {
+  width: 100%;
+  margin-top: 48px;
+}
+
+.zupto-mobile-screens img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
