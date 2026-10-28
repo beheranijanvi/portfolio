@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 
 export default function CaseStudy() {
   const slides = [
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-01.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-02.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-03.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-04.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-05.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-06.png",
-    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-07.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-01.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-02.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-03.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-04.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-05.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-06.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/IMAGES/ghar-07.png",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
