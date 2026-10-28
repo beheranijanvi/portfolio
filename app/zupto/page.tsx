@@ -384,7 +384,7 @@ export default function CaseStudy() {
           
 <div className="zupto-mobile-screens">
   <img
-    src="/projects/zupto/zupto-mobile-screens.png"
+    src="/portfolio/projects/zupto/zupto-mobile-screens.png"
     alt="Four Zupto mobile app screens showing the shopping experience, product page, checkout, and AQI-based delivery map"
   />
 </div>
@@ -464,7 +464,7 @@ export default function CaseStudy() {
 
           <div className="zupto-map-embed" style={{ width: "100%", margin: "2rem 0 2.5rem" }}>
             <iframe
-              src="/projects/zupto/delhi-aqi-map.html"
+              src="/portfolio/projects/zupto/delhi-aqi-map.html"
               title="Delhi AQI and dark-store map, 2024"
               loading="lazy"
               style={{

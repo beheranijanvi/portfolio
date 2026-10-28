@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 
 export default function CaseStudy() {
   const slides = [
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-01.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-02.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-03.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-04.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-05.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-06.png",
-    "/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-07.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-01.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-02.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-03.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-04.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-05.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-06.png",
+    "/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/ghar-07.png",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -191,14 +191,14 @@ export default function CaseStudy() {
         <div className="ghar-process-container">
           <div className="ghar-process-photo">
             <img
-              src="/projects/ghar-jo-hum-piche-chod-aaye/images/chula.png"
+              src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/chula.png"
               alt="A moment from the physical installation"
             />
           </div>
 
           <div className="ghar-process-gif">
             <img
-              src="/projects/ghar-jo-hum-piche-chod-aaye/images/Chulha_split.gif"
+              src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/Chulha_split.gif"
               alt="The interaction in motion"
             />
           </div>
@@ -225,14 +225,14 @@ export default function CaseStudy() {
           <div className="ghar-process-container">
             <div className="ghar-process-photo">
               <img
-                src="/projects/ghar-jo-hum-piche-chod-aaye/images/lattu.png"
+                src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/lattu.png"
                 alt="The physical chulha installation"
               />
             </div>
 
             <div className="ghar-process-gif">
               <img
-                src="/projects/ghar-jo-hum-piche-chod-aaye/images/lattu_split.gif"
+                src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/lattu_split.gif"
                 alt="The chulha interaction in VR"
               />
             </div>
@@ -297,7 +297,7 @@ export default function CaseStudy() {
         {/* INSTALLATION TIMELAPSE GIF */}
         <div className="case-study-video-local">
           <img
-            src="/projects/ghar-jo-hum-piche-chod-aaye/images/installation-timelapse.gif"
+            src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/images/installation-timelapse.gif"
             alt="Timelapse of building the physical installation"
             loading="lazy"
           />

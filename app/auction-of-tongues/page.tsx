@@ -7,55 +7,55 @@ export default function CaseStudy() {
 
         <img
           className="auction-tongue at-01"
-          src="/projects/auction-of-tongues/tongues/tongue-1.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-1.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-02"
-          src="/projects/auction-of-tongues/tongues/tongue-2.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-2.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-03"
-          src="/projects/auction-of-tongues/tongues/tongue-3.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-3.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-04"
-          src="/projects/auction-of-tongues/tongues/tongue-2.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-2.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-05"
-          src="/projects/auction-of-tongues/tongues/tongue-1.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-1.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-06"
-          src="/projects/auction-of-tongues/tongues/tongue-3.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-3.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-07"
-          src="/projects/auction-of-tongues/tongues/tongue-1.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-1.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-08"
-          src="/projects/auction-of-tongues/tongues/tongue-2.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-2.png"
           alt=""
         />
 
         <img
           className="auction-tongue at-09"
-          src="/projects/auction-of-tongues/tongues/tongue-3.png"
+          src="/portfolio/projects/auction-of-tongues/tongues/tongue-3.png"
           alt=""
         />
 
