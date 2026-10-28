@@ -157,7 +157,7 @@ export default function CaseStudy() {
 
 
         <footer className="auction-footer">
-          <a href="/">← Back to Projects</a>
+         <a href="/portfolio/">← Back to Projects</a>
         </footer>
 
       </div>

@@ -68,7 +68,7 @@ export default function Home() {
 
             <img
               className="project-image project-01-image"
-              src="/projects/ghar-jo-hum-piche-chod-aaye/cover.png"
+              src="/portfolio/projects/ghar-jo-hum-piche-chod-aaye/cover.png"
               alt="Ghar Jo Hum Piche Chod Aaye"
             />
 
@@ -100,13 +100,12 @@ export default function Home() {
 
               <a
                 className="view-project"
-                href="/ghar-jo-hum-piche-chod-aaye"
+                href="/portfolio/ghar-jo-hum-piche-chod-aaye/"
               >
                 [View]
               </a>
             </div>
           </article>
-
 
           {/* PROJECT 02 */}
           <article className="project">
@@ -114,7 +113,7 @@ export default function Home() {
 
             <img
               className="project-image project-02-image"
-              src="/projects/auction-of-tongues/cover.jpeg"
+              src="/portfolio/projects/auction-of-tongues/cover.jpeg"
               alt="Auction of Tongues"
             />
 
@@ -122,8 +121,10 @@ export default function Home() {
               <div>
                 <h1>Auction of Tongues</h1>
                 <p>Duration : 1 week</p>
-                <p>Role : Concept Designer, Researcher &
-                  Experience Designer</p>
+                <p>
+                  Role : Concept Designer, Researcher &
+                  Experience Designer
+                </p>
               </div>
 
               <div className="project-description">
@@ -141,12 +142,13 @@ export default function Home() {
 
               <a
                 className="view-project"
-                href="/auction-of-tongues"
+                href="/portfolio/auction-of-tongues/"
               >
                 [View]
               </a>
             </div>
           </article>
+
 
 
           {/* PROJECT 03 */}
@@ -155,7 +157,7 @@ export default function Home() {
 
             <img
               className="project-image project-03-image"
-              src="/projects/zupto/cover.png"
+              src="/portfolio/projects/zupto/cover.png"
               alt="Zupto"
             />
 
@@ -185,7 +187,7 @@ export default function Home() {
 
               <a
                 className="view-project"
-                href="/zupto"
+                href="/portfolio/zupto/"
               >
                 [View]
               </a>
@@ -200,7 +202,7 @@ export default function Home() {
 
             <img
               className="project-image project-05-image"
-              src="/projects/ahmedabad-brts/cover.jpg"
+              src="/portfolio/projects/ahmedabad-brts/cover.jpg"
               alt="Ahmedabad BRTS"
             />
 
@@ -233,7 +235,7 @@ export default function Home() {
 
               <a
                 className="view-project"
-                href="/ahmedabad-brts"
+                href="/portfolio/ahmedabad-brts/"
               >
                 [View]
               </a>
@@ -247,7 +249,7 @@ export default function Home() {
 
             <img
               className="project-image project-06-image"
-              src="/projects/ira/cover.png"
+              src="/portfolio/projects/ira/cover.png"
               alt="IRA"
             />
 
