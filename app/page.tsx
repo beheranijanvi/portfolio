@@ -31,20 +31,29 @@ export default function Home() {
             </p>
           </div>
 
-          <nav className="links">
-            <a href="#">Email</a>
-            <a href="#">CV</a>
-            <a href="#">Instagram ↗</a>
-          </nav>
+          
+<nav className="links">
+  <a href="mailto: beheranijanvi@gmail.com">Email</a>
+  <a href="/portfolio/cv.pdf" target="_blank" rel="noreferrer">CV</a>
+  <a
+   href="https://www.instagram.com/
+__janvibeherani_
+/" 
+    target="_blank"
+    rel="noreferrer"
+  >
+    Instagram ↗
+  </a>
+</nav>
+
 
           <div className="work">
             <p>Work</p>
 
             <ol>
-              <li>Ghar Jo Piche Chod Aaye</li>
+              <li>घर जो हम पीछे छोड़ आए</li>
               <li>Auction of Tongues</li>
               <li>Zupto</li>
-              <li>Letters I Never Sent</li>
               <li>Ahmedabad BRTS</li>
               <li>IRA</li>
             </ol>
@@ -74,7 +83,7 @@ export default function Home() {
 
             <div className="project-info">
               <div>
-                <h1>Ghar Jo Hum Piche Chod Aaye</h1>
+                <h1>घर जो हम पीछे छोड़ आए</h1>
                 <p>Duration : 3 weeks</p>
                 <p>
                   Role : Concept & Interaction Designer, Researcher &

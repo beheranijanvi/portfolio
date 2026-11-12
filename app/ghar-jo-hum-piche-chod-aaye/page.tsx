@@ -42,7 +42,7 @@ export default function CaseStudy() {
 
         <header className="case-study-header">
           <p className="case-study-label">
-            GHAR JO HUM PICHE CHOD AAYE
+           घर जो हम पीछे छोड़ आए
           </p>
 
           <p className="case-study-meta">
@@ -328,7 +328,7 @@ export default function CaseStudy() {
         {/* FOOTER */}
 
         <footer className="case-study-footer">
-         <a href="/portfolio/">← Back to Projects</a>
+         <a href="/portfolio/">← Back </a>
         </footer>
 
       </div>

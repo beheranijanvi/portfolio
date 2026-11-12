@@ -23,8 +23,8 @@ export default function CaseStudy() {
 
           <p>
             The first time we used Ahmedabad BRTS, we realised how many little
-            things we were expected to already know. Which bus do I take? Where
-            do I buy the ticket? Where do I wait? Is this BRTS or AMTS? When do
+            things we were expected to already know. Which bus do I take?  Where
+            do I buy the ticket?  Where do I wait? Is this BRTS or AMTS? When do
             I get off? The bus wasn't necessarily difficult to use. What made
             the journey confusing was everything around it.
           </p>
@@ -37,24 +37,24 @@ export default function CaseStudy() {
 
 
         <section className="case-study-section">
-          <h2>We became the first-time users</h2>
+          <h2>Reasearch</h2>
 
           <p>
-            Instead of immediately designing a better map or ticketing system,
+            We became the first-time users, instead of immediately designing a better map or ticketing system,
             we spent time using BRTS ourselves. We observed stations, travelled
             on buses, bought tickets, waited, changed routes and watched how
-            regular commuters moved through the system. We also interviewed and
+            regular commuters moved through the system.<strong>We also interviewed and
             shadowed users to understand the things they did almost
-            automatically.
+            automatically.</strong> 
           </p>
 
           <p>
-            What was obvious to a regular commuter wasn't always obvious to us.
+            We observed that what was obvious to a regular commuter wasn't always obvious to us.
             They had learned the system. We were trying to understand it.
           </p>
 
           <p>
-            Looking beyond the bus, we then stepped back and looked at BRTS as a
+           Then looking beyond the bus, we then stepped back and looked at BRTS as a
             larger system. We studied existing maps, BRTS and AMTS plans,
             research papers, other transport systems and different approaches
             to navigation, ticketing, colour coding and safety.
@@ -72,16 +72,15 @@ export default function CaseStudy() {
           <h2>Mapping the journey</h2>
 
           <p>
-            We mapped the experience from beginning to end: Enter → Buy ticket
-            → Find bus → Wait → Board → Travel → Get off → Exit.
+            We mapped the experience from beginning to end.
           </p>
 
           <p>
             But the journey wasn't the same for everyone. A first-time
-            passenger spent more time understanding the route. Someone paying
-            with cash might have to wait at the counter. During crowded hours,
-            women had another concern layered onto the journey — where can I
-            stand and feel safe?
+            passenger spent more time understanding the route. 
+            Someone paying with cash might have to wait at the counter. 
+            During crowded hours, women had another concern layered onto the journey - 
+            where can I stand and feel safe?
           </p>
 
           <p>
@@ -90,9 +89,13 @@ export default function CaseStudy() {
           </p>
         </section>
 
+        <section className="case-study-section">
+          <h2>Discovery</h2>
+        </section>
+
 
         <section className="case-study-section">
-          <h2>Turning confusion into questions</h2>
+          <h2>How Might We</h2>
 
           <p>
             Once we had enough observations, we didn't jump straight into
@@ -135,6 +138,42 @@ export default function CaseStudy() {
             Our final direction wasn't about replacing BRTS. It was about
             making the existing system easier to understand.
           </p>
+          
+
+<div className="brts-ui-gallery">
+  <img
+    src="/portfolio/projects/ahmedabad-brts/Screens/Screen%2001.jpg"
+    alt="AMTS welcome screen"
+  />
+  <img
+    src="/portfolio/projects/ahmedabad-brts/Screens/Screen%201.png"
+    alt="Language selection screen"
+  />
+  <img
+    src="/portfolio/projects/ahmedabad-brts/Screens/Screen%202.png"
+    alt="AMTS and BRTS selection screen"
+  />
+  <img
+    src="/portfolio/projects/ahmedabad-brts/Screens/Screen%203.png"
+    alt="Route selection screen"
+  />
+
+  <div className="brts-ui-gallery-bottom">
+    <img
+      src="/portfolio/projects/ahmedabad-brts/Screens/Screen%204.png"
+      alt="Ticket quantity selection screen"
+    />
+    <img
+      src="/portfolio/projects/ahmedabad-brts/Screens/Screen%205.png"
+      alt="QR code payment screen"
+    />
+    <img
+      src="/portfolio/projects/ahmedabad-brts/Screens/Screen%206.png"
+      alt="Ticket collection screen"
+    />
+  </div>
+</div>
+
 
           <p>
             We proposed an interactive screen where passengers could choose a
@@ -215,7 +254,7 @@ export default function CaseStudy() {
 
 
         <footer className="case-study-footer">
-         <a href="/portfolio/">← Back to Projects</a>
+         <a href="/portfolio/">← Back</a>
         </footer>
 
       </div>
