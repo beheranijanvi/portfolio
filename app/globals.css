@@ -309,8 +309,32 @@ body {
   line-height: 1.5;
 }
 
+.case-study-section ol,
+.case-study-section ul {
+  margin: 0 0 22px;
+  padding-left: 28px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.case-study-section li {
+  font: inherit;
+}
+
 .case-study-section p:last-child {
   margin-bottom: 0;
+}
+
+.brts-journey-map {
+  margin: 32px 0 28px;
+}
+
+.brts-journey-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 .case-study-section.opening {

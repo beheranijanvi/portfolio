@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -271,15 +272,15 @@ __janvibeherani_
               </div>
 
               <div className="project-description">
-                <p>IRAxyxyx</p>
+                <p>IRA reimagines personal safety through a wearable pendant powered by BLE mesh technology. Instead of relying on a single phone or connection, it explores how nearby devices can work together to relay emergency alerts, turning individual safety into a connected network.</p>
               </div>
 
-              <a
+              <Link
                 className="view-project"
                 href="/ira"
               >
                 [View]
-              </a>
+              </Link>
             </div>
           </article>
 

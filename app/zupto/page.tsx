@@ -511,7 +511,7 @@ export default function CaseStudy() {
         </section>
 
         <footer className="case-study-footer">
-          <a href="/portfolio/">← Back to Projects</a>
+          <a href="/portfolio/">← Back </a>
         </footer>
       </div>
     </main>

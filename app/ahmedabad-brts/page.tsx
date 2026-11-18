@@ -196,6 +196,13 @@ export default function CaseStudy() {
             the stops in between.
           </p>
 
+          <figure className="brts-journey-map">
+            <img
+              src="/portfolio/projects/ahmedabad-brts/Ahmedabad%20brts%20(1).png"
+              alt="Ahmedabad BRTS route map displayed inside a bus"
+            />
+          </figure>
+
           <p>
             The idea was simple: the passenger shouldn't have to constantly
             wonder if they're still on the right path.
