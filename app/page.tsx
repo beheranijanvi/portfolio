@@ -52,11 +52,11 @@ __janvibeherani_
             <p>Work</p>
 
             <ol>
-              <li>घर जो हम पीछे छोड़ आए</li>
-              <li>Auction of Tongues</li>
-              <li>Zupto</li>
-              <li>Ahmedabad BRTS</li>
-              <li>IRA</li>
+              <li><a href="#project-ghar">घर जो हम पीछे छोड़ आए</a></li>
+              <li><a href="#project-auction-of-tongues">Auction of Tongues</a></li>
+              <li><a href="#project-zupto">Zupto</a></li>
+              <li><a href="#project-ahmedabad-brts">Ahmedabad BRTS</a></li>
+              <li><a href="#project-ira">IRA</a></li>
             </ol>
           </div>
         </div>
@@ -73,7 +73,7 @@ __janvibeherani_
         <div className="project-list">
 
           {/* PROJECT 01 */}
-          <article className="project">
+          <article className="project" id="project-ghar">
             <p className="project-number">01</p>
 
             <img
@@ -118,7 +118,7 @@ __janvibeherani_
           </article>
 
           {/* PROJECT 02 */}
-          <article className="project">
+          <article className="project" id="project-auction-of-tongues">
             <p className="project-number">02</p>
 
             <img
@@ -162,7 +162,7 @@ __janvibeherani_
 
 
           {/* PROJECT 03 */}
-          <article className="project">
+          <article className="project" id="project-zupto">
             <p className="project-number">03</p>
 
             <img
@@ -207,7 +207,7 @@ __janvibeherani_
 
          
           {/* PROJECT 05 */}
-          <article className="project">
+          <article className="project" id="project-ahmedabad-brts">
             <p className="project-number">05</p>
 
             <img
@@ -254,7 +254,7 @@ __janvibeherani_
 
 
           {/* PROJECT 06 */}
-          <article className="project">
+          <article className="project" id="project-ira">
             <p className="project-number">06</p>
 
             <img

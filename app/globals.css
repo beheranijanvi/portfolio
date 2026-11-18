@@ -115,6 +115,21 @@ body {
   line-height: 1.35;
 }
 
+.work a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.work a:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+
+.work a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 .copyright {
   margin: 0;
   color: #aaaaaa;
@@ -135,6 +150,7 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .topbar {
@@ -167,6 +183,7 @@ body {
 .project {
   max-width: 1000px;
   margin-bottom: 120px;
+  scroll-margin-top: 24px;
 }
 
 .project-number {
