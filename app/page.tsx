@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WorkNavigation from "./WorkNavigation";
 
 export default function Home() {
   return (
@@ -51,13 +52,7 @@ __janvibeherani_
           <div className="work">
             <p>Work</p>
 
-            <ol>
-              <li><a href="#project-ghar">घर जो हम पीछे छोड़ आए</a></li>
-              <li><a href="#project-auction-of-tongues">Auction of Tongues</a></li>
-              <li><a href="#project-zupto">Zupto</a></li>
-              <li><a href="#project-ahmedabad-brts">Ahmedabad BRTS</a></li>
-              <li><a href="#project-ira">IRA</a></li>
-            </ol>
+            <WorkNavigation />
           </div>
         </div>
 

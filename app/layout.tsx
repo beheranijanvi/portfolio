@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Janvi Beherani",
   description: "Portfolio of Janvi Beherani, Interaction Designer.",
+  icons: {
+    icon: "/portfolio/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
